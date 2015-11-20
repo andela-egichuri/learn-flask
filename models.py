@@ -1,5 +1,5 @@
 from sqlalchemy.dialects.postgresql import JSON
-
+from app import db
 
 class Result(db.Model):
     __tablename__ = 'results'
